@@ -1,5 +1,5 @@
 module.exports = {
-  findMinMax: function(num) {
+  FizzBuzz: function(num) {
     if((num%3==0) && (num%5==0))
     {
       return "FizzBuzz";
