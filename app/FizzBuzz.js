@@ -1,5 +1,9 @@
 module.exports = {
-  FizzBuzz: function(num) {
+  fizzBuzz: function(num) {
+    if(Number.isInteger(num)==false)
+    {
+      return "Invalid Argument, Enter A Number Next Time"
+    }
     if((num%3==0) && (num%5==0))
     {
       return "FizzBuzz";
